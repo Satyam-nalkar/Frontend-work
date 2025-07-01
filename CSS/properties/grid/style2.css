@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work_Sans';
+}
+ 
+ html, body{
+    height:100%;
+    width: 100%;
+ }
+ #nav{
+    /* background-color: red; */
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: 50% 10% 10% 10% 10% 10%;
+    align-items: center;
+    justify-items: center;
+ }
+ #nav h1{
+    justify-self: start;
+ }
