@@ -14,7 +14,7 @@
     width:100%;
  } */
 
- #page1{
+ /* #page1{
      height: 100%;
      width: 100%;
      background-color: salmon;
@@ -46,4 +46,38 @@
     width: 200px;
     border-radius: 50%;
     background: linear-gradient(lightgreen,royalblue)
+ } */
+
+
+ body{ 
+   overflow-x: hidden;
  }
+ #page1{
+   height: 100%;
+   width: 100%;
+   background-color: antiquewhite;
+ }
+
+  #page2{
+   height: 100%;
+   width: 100%;
+   background-color: rgb(227, 188, 138);
+ }
+
+ #page2 img{
+   height: 100%;
+   width: 20%;
+   background-color: rgb(28, 146, 220);
+ }
+
+ #page2 h1{
+   font-size: 37vw;
+   font-weight: 600;
+
+ }
+  #page3{
+   height: 100%;
+   width: 100%;
+   background-color: rgb(11, 7, 1),
+ }
+
