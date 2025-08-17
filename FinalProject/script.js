@@ -15,4 +15,8 @@ setInterval(function(){
     }
 },35)
 
-gspa.timeline()
+var tl = gspa.timeline()
+    tl.to("#loader",{
+        opacity:0,
+        duration:0.4
+    })
