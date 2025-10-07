@@ -41,3 +41,49 @@
 //12,14.3 , harsh, true,a ,null, undefined - primitive dt
 //[] () {} -reference dt
 
+// var a = 12;
+// var b = a;
+
+// var arr = [1,2,3,4,5,6];
+// var b =arr;
+
+// b.pop(); 
+
+
+//spread operator
+
+// var ar = [12,13,14,15];
+// var ba = [... ar];
+
+// conditionals = if, else, else-if ternary oprator switch case
+
+//
+/*var age = 18;
+if(age >= 18){
+    
+}*/
+
+
+//truthy and falsy values
+//falsy
+//null undefined NaN 0 "" '' document.all false
+//other are truthy ex., "hello",true,12,45
+   
+/*if(12 > 13){
+    console.log("hey");
+}
+else {
+    console.log("hello");
+} */
+
+
+// loops
+ 
+//for while do-while foreach forin forof
+//for, while ,foreach
+
+for(var num = 5;num < 10; num++){
+    console.log(num);
+}
+     
+ 
