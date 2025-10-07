@@ -82,8 +82,26 @@ else {
 //for while do-while foreach forin forof
 //for, while ,foreach
 
-for(var num = 5;num < 10; num++){
+/*for(var num = 5;num < 10; num++){
     console.log(num);
-}
+}*/
      
+
+//while
+/*start;
+while(end){
+  change;
+}*/
  
+/*var i = 1;
+while(i<=10){
+   i++;  
+   console.log(i);
+}*/
+
+/*var i = 12;
+while(i>0){
+    i--;
+    console.log(i);
+}*/
+
