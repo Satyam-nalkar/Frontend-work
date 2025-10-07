@@ -15,4 +15,17 @@
 // alert("hello")
 
 
-prompt("hello");
+// prompt("hello");
+
+
+
+//  var a = 12;
+//  var b = 22;
+
+// var discont = 10;
+// discount = 22;
+
+// const discount = 12; 
+//not changeble
+
+
