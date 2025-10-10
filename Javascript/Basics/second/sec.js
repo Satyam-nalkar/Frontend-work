@@ -291,8 +291,112 @@ obj2.sayName(); */
 
 
 
+
 //fun inside method (es6)  - object
+/*var obj3 = {
+    sayName: function(){
+        const child = ()=>{    // es6 
+            console.log(this);      
+        }     
+        child();
+    }
+}
+obj3.sayName(); */
+
+
+
 
 
 //constructor fun madhe this chi value - new blank object
-//event listener madhe this chi value - that element jyavar event listener lagla ahe
+
+/*function add(){
+    console.log(this);
+}
+const ans = new add(); */
+
+//event listener madhe this chi value - that element jyavar event listener lagla ahe 
+/*document.querySelector("button")
+.addEventListener("click",function(){
+    console.log(this);
+}) */
+
+
+//apply, call, bind
+//call
+
+/*const obj = {name: "harsh"}   
+function abcd(){
+    console.log(this);
+}
+abcd.call(obj);*/
+
+//apply
+/*const obj = {name: "harsh"}   
+function abcd(a,b,c){
+    console.log(this,a,b,c);
+} 
+abcd.apply(obj,[1,2,3]); */
+
+
+
+//bind
+/*const obj = {name: "harsh"}   
+function abcd(){
+    console.log(this);
+}
+const baadmechalanekeliye =  abcd.bind(obj);
+baadmechalanekeliye(); */
+
+
+//Prototypal Inheritance
+
+/*function makeHuman(name,age){
+    this.name = name
+    this.age = age;  
+}
+const human1 = new makeHuman("Harsh",25)*/
+
+//ase function jya madhe this cha upyog hot asel tya function la call karnyaveli new cha upyog kela tr new cha arth blank object asto. 
+
+/*function abcd(){
+    this.username = "harsh";
+}
+
+var ans = new abcd(); */
+ 
+
+/*function makeHuman(name,age){
+    this.name = name;
+    this.age = age;
+    
+}
+
+makeHuman.prototype.printMyName = function(){
+        console.log(this.name);
+}
+
+const human1 = new makeHuman("harsh",24);
+const human2 = new makeHuman("harshita",25); */
+
+
+
+//closures
+/*function counter(){
+    var count = 0;
+    return function(){
+        count++;
+        console.log(count);
+    }
+}
+var fun = counter();
+fun();
+fun();  */
+
+function abcd(){
+    var a = 12;
+    return function(){
+        console.log(a);
+    }
+}
+var ans = abcd();
+ans(); 
