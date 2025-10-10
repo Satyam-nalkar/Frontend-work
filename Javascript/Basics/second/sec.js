@@ -202,3 +202,97 @@ console.log(users[2]); */
 //var arr = [1,2,"3",function(){},[],4];
 
 //a lot of times in the shape of more than number ,to contain all data altogether, save it in an array
+
+
+//loop with array
+//var arr = [1,2,3,4,5];
+
+//how to loop an array
+/*arr.forEach(function(val){
+    console.log(val);
+}) */
+
+
+/*arr.forEach(function(val){
+    console.log(val+1)
+})*/
+
+
+
+//objects
+ 
+/*var obj = {};
+var obj2 = new Object(); */
+
+/*var obj = {
+   name:"harsh",
+   age:25,
+   email:"abc@abc.com",
+   contact:123456789
+}; */
+
+
+/*var battery = {
+    company: "canon",
+    price:1200,
+    for:"camera",
+    isWorking:true
+}     
+
+battery.for */
+
+
+
+//Synchronous and Asynchronous
+
+//synchronous madhe code line by line chalto async code line by line madhe nahi chalat sara async code sobat suru kela jato jo lavkar sampel tyach ans dil jat. 
+
+ 
+
+//this call apply bind
+//this keyword js madhe one of the most suspenseful keyword
+//this chi value vegveglyathikani vegvegli aste.
+
+//global  - window
+/*console.log(this);
+not in any func and other so it is in global scope */
+
+
+//function - window
+/*function abcd(){
+    console.log(this);
+}
+ abcd(); */
+
+
+ //method  - object
+/*var obj = {
+    name: function(){
+        console.log(this);
+    },
+    age:25,
+    email:"abcdefg"
+}
+obj.name(); */
+
+
+//fun inside method (es5) - window
+/*var obj2 = {
+    sayName:function(){
+        console.log(this.age);
+        function childfun(){
+            console.log(this.age);
+        }
+        childfun();
+    },
+    age: 25
+}
+obj2.sayName(); */
+
+
+
+//fun inside method (es6)  - object
+
+
+//constructor fun madhe this chi value - new blank object
+//event listener madhe this chi value - that element jyavar event listener lagla ahe
