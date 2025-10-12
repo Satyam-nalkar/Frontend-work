@@ -389,14 +389,37 @@ const human2 = new makeHuman("harshita",25); */
     }
 }
 var fun = counter();
-fun();
+fun();    
 fun();  */
 
-function abcd(){
+/*function abcd(){
     var a = 12;
     return function(){
         console.log(a);
     }
 }
 var ans = abcd();
-ans(); 
+ans(); */
+
+
+/*function timer(){
+    var a = 12;
+    return setTimeout(function(){
+        console.log(a);
+    }, 2000)
+}
+
+var ans = timer(); */
+
+
+
+//event deligation
+//event delegation = jab aap event listener se kai sare different elements ke events ko handle kar sake.
+//event parent par lagao and unko id, class ya fir tag ke basis par diffrentiate karke task karao
+
+
+var parent = document.querySelector("#parent");
+
+parent.addEventListener("click",function(details){
+    console.log(details.target);
+})
